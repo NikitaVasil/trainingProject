@@ -3,12 +3,46 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-<script defer src="main.5b4b8d3f957f69f41b91.js"></script></head>
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Positivus</title>
+<script defer src="main.0583e43a52051518df45.js"></script><link href="main.css" rel="stylesheet"></head>
 
 <body>
+  <header class="header">
+    <div class="header__inner container">
+      <a href="/" class="header__logo logo">
+        <img src="image/logo.svg" alt="Positivus" class="logo__image" loading="lazy">
+      </a>
+      <nav class="header__menu hidden-mobile">
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a href="/" class="header__menu-link">About us</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="/" class="header__menu-link">Services</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="/" class="header__menu-link">Cases</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="/" class="header__menu-link">Pricing</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="/" class="header__menu-link">Blog</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__button button button--transparent hidden-mobile" type="button">
+        Request a quote
+      </button>
+      <button class="header__burger-button burger-button visible-mobile" type="button">
+        <span class="visually-hidden">Open navigation menu</span>
+      </button>
+    </div>
+  </header>
 
+  <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">MENU</dialog>
 </body>
 
 </html>
